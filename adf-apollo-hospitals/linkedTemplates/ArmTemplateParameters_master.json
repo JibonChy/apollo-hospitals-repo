@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-apollo-hospitals"
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://apollohospitalsstorage.dfs.core.windows.net/"
+		},
+		"ls_azure_db_properties_typeProperties_server": {
+			"value": "apollohospitals.database.windows.net"
+		},
+		"ls_azure_db_properties_typeProperties_database": {
+			"value": "sql-db-apollo"
+		},
+		"ls_azure_db_properties_typeProperties_userName": {
+			"value": "jibonchy"
+		},
+		"ls_key_vault_properties_typeProperties_baseUrl": {
+			"value": "https://apollo-keyvault.vault.azure.net/"
+		},
+		"ls_postgreSQL_properties_typeProperties_server": {
+			"value": "ep-bold-water-b3zwi8ib-pooler.c-4.ap-southeast-1.aws.neon.tech"
+		},
+		"ls_postgreSQL_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"ls_postgreSQL_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
