@@ -1,0 +1,17 @@
+{
+	"name": "ls_postgreSQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "PostgreSqlV2",
+		"typeProperties": {
+			"server": "ep-bold-water-b3zwi8ib-pooler.c-4.ap-southeast-1.aws.neon.tech",
+			"port": 5432,
+			"database": "neondb",
+			"username": "neondb_owner",
+			"sslMode": 2,
+			"authenticationType": "Basic",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEQxQjAyMzBBLTQ2OTctNDM2RC1CNTk4LUQ4REFBREE0OUZBNV8xYTFhYTY3YS02YWE4LTQwOTgtYjlmNy02NzgzMmU3NzAyZjEiDQp9"
+		}
+	}
+}
