@@ -286,7 +286,8 @@
 								"dataset": {
 									"referenceName": "ds_azureSQL",
 									"type": "DatasetReference"
-								}
+								},
+								"firstRowOnly": true
 							}
 						},
 						{
