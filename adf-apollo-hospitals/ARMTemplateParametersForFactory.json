@@ -28,6 +28,9 @@
 		},
 		"ls_postgreSQL_properties_typeProperties_username": {
 			"value": "neondb_owner"
+		},
+		"ls_adb_properties_typeProperties_existingClusterId": {
+			"value": "1009-141402-xrny5e3m"
 		}
 	}
 }

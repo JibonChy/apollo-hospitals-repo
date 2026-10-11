@@ -39,6 +39,10 @@
 			"type": "string",
 			"defaultValue": "neondb_owner"
 		},
+		"ls_adb_properties_typeProperties_existingClusterId": {
+			"type": "string",
+			"defaultValue": "1009-141402-xrny5e3m"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -89,6 +93,9 @@
 					},
 					"ls_postgreSQL_properties_typeProperties_username": {
 						"value": "[parameters('ls_postgreSQL_properties_typeProperties_username')]"
+					},
+					"ls_adb_properties_typeProperties_existingClusterId": {
+						"value": "[parameters('ls_adb_properties_typeProperties_existingClusterId')]"
 					}
 				}
 			},
