@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-apollo-hospitals"
 		},
+		"ls_adb_properties_typeProperties_existingClusterId": {
+			"value": "1009-141402-xrny5e3m"
+		},
 		"ls_adls_properties_typeProperties_url": {
 			"value": "https://apollohospitalsstorage.dfs.core.windows.net/"
 		},
@@ -28,9 +31,6 @@
 		},
 		"ls_postgreSQL_properties_typeProperties_username": {
 			"value": "neondb_owner"
-		},
-		"ls_adb_properties_typeProperties_existingClusterId": {
-			"value": "1009-141402-xrny5e3m"
 		},
 		"containerUri": {
 			"value": ""
