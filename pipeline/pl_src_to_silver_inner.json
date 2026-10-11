@@ -370,7 +370,7 @@
 		"parameters": {
 			"para_table_id": {
 				"type": "string",
-				"defaultValue": "3"
+				"defaultValue": "1"
 			},
 			"para_adf_run_id": {
 				"type": "string",
